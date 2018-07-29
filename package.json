@@ -1,5 +1,9 @@
 {
   "private": true,
+  "scripts": {
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json"
+  },
   "devDependencies": {
     "@types/node": "^10.5.4",
     "ts-node": "^7.0.0",
