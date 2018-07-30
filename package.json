@@ -2,10 +2,12 @@
   "private": true,
   "scripts": {
     "watch": "tsc -w",
-    "lint": "tslint -c tslint.json -p tsconfig.json"
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "ts-nodemon": "nodemon --exec ./node_modules/.bin/ts-node -- ./src/index.ts"
   },
   "devDependencies": {
     "@types/node": "^10.5.4",
+    "nodemon": "^1.18.3",
     "ts-node": "^7.0.0",
     "tslint": "^5.11.0",
     "tslint-config-prettier": "^1.14.0",
