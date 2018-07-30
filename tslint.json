@@ -6,6 +6,7 @@
   "rules": {
     "no-console": false,
     "member-access": false,
-    "max-classes-per-file": false
+    "max-classes-per-file": false,
+    "interface-name": false,
   }
 }
